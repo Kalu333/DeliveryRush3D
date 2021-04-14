@@ -13,6 +13,7 @@ public static class EventHandler
     public static Func<float> GetSideMovementSpeed;
     public static Action<float> ChangeForwardMovementSpeed;
     public static Func<float> GetForwardMovementSpeed;
+    
     //PlayerTransform
     public static Func<Transform> GetPlayerTransform;
     public static Action<Vector3> SetPlayerPosition;

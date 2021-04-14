@@ -45,10 +45,7 @@ public class CameraControl : MonoBehaviour
             Debug.LogError("Player transform not attached to camera!");
         else
             calculate_offset();
-
-        //EventHandler.ChangeCameraHeight += (value) => calculate_offset();
-        //EventHandler.ChangeCameraForward += (value) => calculate_offset();
-        //EventHandler.ChangeCameraRotation += (value) => calculate_offset();
+            
         EventHandler.SetPlayerPosition += (value) => update_position(0);
     }
 
